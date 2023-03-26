@@ -29,14 +29,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tamaki's Diary</title>
+        <title>Tamaki&apos;s Diary</title>
         <meta name="description" content="A website of Tamaki's Diary." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <h1>Tamaki's Diary</h1>
+          <h1>Tamaki&apos;s Diary</h1>
         </div>
 
         <div className={styles.grid}>
