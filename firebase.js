@@ -18,7 +18,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-// Work only on window
+// Work only on browser
 if(typeof window !== 'undefined'){
   const analytics = getAnalytics(app);
 }
